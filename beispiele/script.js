@@ -3,8 +3,8 @@
 //. nur true oder false
 //. wenn man etwas vergleichen wwill
 //beispiel: ist 4 größer als 2? = console.log(4 > 2);
-( o = false            |     (1 = true 
-aus = false)                  an = true) 
+( o = false  )          |     (1 = true )
+(aus = false)                  (an = true) 
 
 /// String:
 //. Zeichenkette , beispiel: ( " " , ` ` , ' ' )
@@ -13,14 +13,14 @@ beispiel:  console.log("Hello World");
 
 //doppel quots in doppel quots
 //damit es funktioniert : 
-console.log("hello  / "world" / " );
+console.log("Hello  / "World" / ");
 
 /// Numbers:
 //. 2 Katigotrien 
 beispiel: - intergers (1,2,3,4)
           - Fließkomma-zahlen (3.3247953455, 1.5)
           .getrennt mit einem -> . 
-          .Englische Schreibweise nehmen 
+          .Englische schreib weise nehmen 
 beispiel: console.log(1.3 .toFixed());
 
 
@@ -123,11 +123,20 @@ console.log("foo" + "bar" === "foobar");
 //result: true
 
 ///Fubktion Anatomy:
-beispiel:
-funktion myFirstFanktion () {
-// the code 
+//beispiel: damit es ausgeführt wird 
+function myFirstFunction () {
+console.log("hello world");
 }
+myFirstFunction()
 
+/// Return Statement:
+// .return = um etwas zuruck zu geben aus einer function
+// .wenn man return verwendet, ist die function an sich beendet. Bedeutet:code wird nicht mehr ausgeführt.
+// .nur ein return pro function verwendbar
+beispiel:
+function addOneAndOne () {
+    return 1+1;
+}
 
 
 
