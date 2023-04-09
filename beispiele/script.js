@@ -1,3 +1,29 @@
+////data-types
+/// Boolean: 
+//. nur true oder false
+//. wenn man etwas vergleichen wwill
+//beispiel: ist 4 größer als 2? = console.log(4 > 2);
+( o = false            |     (1 = true 
+aus = false)                  an = true) 
+
+/// String:
+//. Zeichenkette , beispiel: ( " " , ` ` , ' ' )
+beispiel:  console.log("Hello World");
+           console.log("1 +1");
+
+//doppel quots in doppel quots
+//damit es funktioniert : 
+console.log("hello  / "world" / " );
+
+/// Numbers:
+//. 2 Katigotrien 
+beispiel: - intergers (1,2,3,4)
+          - Fließkomma-zahlen (3.3247953455, 1.5)
+          .getrennt mit einem -> . 
+          .Englische Schreibweise nehmen 
+beispiel: console.log(1.3 .toFixed());
+
+
 // addition
 console.log(1 + 1); 
 
@@ -88,7 +114,24 @@ console.log("My" + "name" + "is Lucy");
 beispiel:
 console.log("1" + 1); 
 //result: 11           
-!wird gemacht, um aus Ganzzahlen ein strink zu machen!
+console.log("" + 6 + 8); 
+//result: 68
+/// !wird gemacht, um aus Ganzzahlen ein strink zu formen!
+
+//man kann mehrere Operatoren verbinden !
+console.log("foo" + "bar" === "foobar");
+//result: true
+
+///Fubktion Anatomy:
+beispiel:
+funktion myFirstFanktion () {
+// the code 
+}
+
+
+
+
+
 
 
 
