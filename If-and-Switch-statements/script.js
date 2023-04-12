@@ -15,39 +15,19 @@ console.log(result);
 // Returns Greater than 10 but should return Greater than 20
 
 //Task 2
-//function hatRest(num){
-// if (retVal == 0){
-//     return false
-// } else{
-//     return true
-// }
-//}
 
-// Strg+K,Strg+C
-// Strg+K,Strg+U
-// F2 -> refactoring von Benamungen (Cursor Wort markieren)
-
-function hasRemainder(value) {
-  return value % 2 != 0;
-}
-
-function oddEven(num) {
-  if (hasRemainder(num) == true) {
-    return "odd";
-  } else {
+function oddEven(number) {
+  if (number % 2 === 0) {
     return "even";
+  } else {
+    return "odd";
   }
 }
 
-console.log(oddEven(4));
-console.log(oddEven(5));
-
-function PrintNum(num) {
-  return "Number " + num + " is " + oddEven(num) + ".";
-}
-
-console.log(PrintNum(6));
-console.log(PrintNum(7));
+console.log(oddEven(4)); // result should be even
+console.log(oddEven(3)); // result should be odd
+console.log(oddEven(-1)); // result should be odd
+console.log(oddEven(10)); // result should be even
 
 //Task 3
 
