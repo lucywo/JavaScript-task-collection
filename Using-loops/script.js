@@ -29,24 +29,27 @@ function oddNumbers(numberStart, numberEnd) {
   console.log(oddNumbers(9, 12));
   // result should be: 9,11
   
+  
   //charCount function - Task 2
   function charCount(word, char) {
+    char = char.toLowerCase();
+    word = word.toLowerCase();
+  
     let count = 0;
-    if (char.length > 1) {
-      return "More than one char!";
-    }
-    for (index = 0; index < word.length; index++) {
-      if (word[index] === char) {
+    for (let i = 0; i < word.length; i++) {
+      const currentChar = word[i];
+      if (currentChar === char) {
         count++;
       }
     }
+  
     return count;
   }
   
-  console.log("Task 2");
-  
-  console.log(charCount("KkKkKk", "ko"));
+  console.log(charCount("lulu", "l"));
   // result should be: 2
+  
+  console.log("Task 2");
   
   console.log(charCount("hello", "l"));
   // result should be: 2
