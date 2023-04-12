@@ -27,11 +27,11 @@ function removeItem(array, position) {
   // Task 03) sumOfCharacters function
 
 
-  function sumOfCharacters(array) {
+  function sumOfCharacters(arr) {
     let count = 0;
-    for (i = 0; i < array.length; i++) {
-      if (typeof array[i] === typeof "") {
-        count += array[i].length;
+    for (let i = 0; i < arr.length; i++) {
+      if (typeof arr[i] === "string") {
+        count += arr[i].length;
       }
     }
     return count;
